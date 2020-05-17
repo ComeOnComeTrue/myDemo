@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.startPage{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 965px;
+}
+.startPage .startBtn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 200px;
+    height: 170px;
+    background-image: url(../imges/startGame.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 965px;
+    background: url(../imges/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.wrapper .left-side{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24%;
+    height: 965px;
+}
+.wrapper .left-side img{
+    /* display: none; */
+    margin: 50px 50px 0 0;
+}
+.wrapper .main{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 90%;
+}
+.wrapper .header{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.wrapper .header .score{
+    color: #ddd;
+    font-size: 20px;
+    line-height: 80px;
+    font-weight: bold;
+}
+.wrapper .content{
+    position: absolute;
+    left: 10%;
+    top: 34%;
+    width: 79.5%;
+    height: 36.5%;
+}
+/*  结束 */
+.loser{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 950px;
+}
+.loser .con{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -150px;
+    background-image: url(../imges/startP.jpg);
+    background-size: 100% 100%;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.loser .con .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url(../imges/closeBtn.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.loser .con .loserScore{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 40px;
+    height: 30px;
+    color: #222;
+    font-weight: bold;  
+    font-size: 30px;
+}
+.food{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../imges/apple.png);
+    background-size: 100% 100%; 
+}
+.snakehead{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url(../imges/head.png);
+    background-size: 100% 100%;
+}
+.snakebody{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url(../imges/body.png);
+    background-size: 100% 100%;
+}

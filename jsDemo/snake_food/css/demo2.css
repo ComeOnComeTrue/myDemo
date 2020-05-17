@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.startPage{
+    position: relative;
+    width: 100%;
+    height: 965px;
+    z-index: 999;
+}
+.startPage .startBtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -85px;
+    width: 200px;
+    height: 170px;
+    background-image: url(../imges/startGame.png);
+    background-size: 100% 100%;
+}
+.wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 965px;
+    background-image:url(../imges/bg.jpg); 
+    background-size: 100% 100%;
+}
+.wrapper .left-side{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24%;
+    height: 90%;
+    border: 1px solid orange;
+}
+.wrapper .left-side img{
+    margin: 50px 0 0 60px;
+}
+.wrapper .main{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 90%;
+    border: 1px solid red;
+}
+.wrapper .main .header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border: 1px solid red;
+
+}
+.wrapper .main .header .score{
+    line-height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ddd;
+}
+.wrapper .main .content{
+    position: absolute;
+    left: 10%;
+    top: 34%;
+    width: 79.5%;
+    height: 36.5%;
+    border: 1px solid red;
+}
+
+.loser{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 965px;
+}
+.loser .con{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -150px;
+    width: 400px;
+    height: 300px;
+    background-image: url(../imges/startP.jpg);
+    background-size: 100% 100%;
+}
+.loser .con .close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url(../imges/closeBtn.png);
+    background-size: 100% 100%;
+}
+.loser .con span.loserScore{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 40px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+.food{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(../imges/apple.png);
+    background-size: 100% 100%;
+}
+.head{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(../imges/head.png);
+    background-size: 100% 100%;
+}
+.body{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(../imges/body.png);
+    background-size: 100% 100%;
+}
