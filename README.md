@@ -1,2 +1,2 @@
 # myDemo
-one demo
+js，jQuery，Vue、demo and test
